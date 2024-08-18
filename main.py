@@ -15,7 +15,7 @@ st.set_page_config(layout="wide", page_title="Free Cash",
                        'About': "# Free Cash 🤑🤑🤑"}
                    )
 
-# Initialize the SQLite database connection with check_same_thread=False
+
 conn = sqlite3.connect('financial_data.db', check_same_thread=False)
 cursor = conn.cursor()
 
@@ -90,7 +90,7 @@ def menu():
         formatted_name = new_table_name.replace(" ", "_").upper()
         return formatted_name
 
-    # Sidebar for managing tables
+   
     with st.sidebar.form(key="create_table_form", clear_on_submit=True):
         new_table_name = st.text_input("Nouveau tableau").strip()
         if st.form_submit_button("Créer un Tableau 📊"):
@@ -157,11 +157,11 @@ def menu():
             cl1, cl2 = st.columns(2)
             with cl1:
                 generate_bar_chart(df_with_totals, title=f"Revenu et Dépenses de {selected_table}", width=400,)
-                                   #height=200)
-                #st.bar_chart(df_with_totals, y="revenu",x="depenses")
+                                
+              
             with cl2:
                 create_pie_chart(df, title=f"Revenu et Dépenses de {selected_table}", width=5, height=5)
-                #st.empty()
+               
 
 
     with st.sidebar:
@@ -179,8 +179,7 @@ def menu():
                     st.warning("Veuillez sélectionner des tables à supprimer.")
 
             with st.expander(label="Fusionner les Tableaux",expanded=False):
-                # Merge Tables
-                #st.subheader("Fusionner les Tableaux")
+               
                 tables_to_merge = st.multiselect("Sélectionner les Tableaux à fusionner", options=tables[::-1],
                                                  placeholder="Multi-options")
                 merged_table_name = st.text_input("Nom de la nouvelle table fusionnée").strip()
@@ -207,7 +206,7 @@ def menu():
 
 
 
-# option menu
+
 with st.sidebar:
     select = option_menu(
         "Free Cash",
