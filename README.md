@@ -33,9 +33,16 @@ L'application calcule automatiquement les totaux de vos revenus et de vos dépen
 
 Free Cash est un projet open source, ce qui signifie que le code source est librement accessible à tous. Vous pouvez consulter, modifier, et améliorer le code selon vos besoins spécifiques. Nous encourageons la contribution de la communauté pour faire évoluer et enrichir l'application.
 
-![Screenshot 2024-08-18 at 1 44 43 PM](https://github.com/user-attachments/assets/ea1cef50-b74a-4221-877b-b174510fc3c1)
-![Screenshot 2024-08-18 at 1 41 14 PM](https://github.com/user-attachments/assets/1b7c38af-d6b5-418f-8b65-064f6c032290)
-![Screenshot ![Screenshot 2024-08-18 at 1 41 21 PM](https://github.com/user-attachments/assets/e92eae37-dd86-43d2-8f93-552bf65db6f0)
-![Screenshot 2024-08-18 at 1 45 01 PM](https://github.com/user-attachments/assets/ce007c09-5dd9-434c-b011-328d736c6d81)
+![Compte](https://github.com/user-attachments/assets/0f5048d2-fd01-4e27-97c1-d5fcdaa7cc32)
+
+
+![AddData](https://github.com/user-attachments/assets/17014e5d-0999-4c9a-9e86-fed08c57e1a3)
+
+
+![DataTe](https://github.com/user-attachments/assets/3b7efe2e-b87e-4fa1-a8b5-9bebcea05a92)
+
+![Rapport](https://github.com/user-attachments/assets/c6d53209-2ab4-4604-b2a5-e465d684c246)
+
+
 
 
