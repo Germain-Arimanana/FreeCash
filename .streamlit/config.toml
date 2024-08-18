@@ -1,0 +1,14 @@
+[server]
+runOnSave = true
+headless = true
+address = 'localhost'
+
+[client]
+showErrorDetails = false
+showWarningOnDirectExecution = false
+
+
+
+
+
+
